@@ -1,0 +1,9 @@
+project: savantenvs/tigervnc
+target: server-auth
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/server-auth/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_server_auth
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,5 @@
+TigerVNC Configuration file Version 1.0
+# comment
+ServerName=a\\b\n\r\cx
+DesktopSize=1024x768
+via=gw::22

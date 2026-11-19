@@ -1,0 +1,9 @@
+project: savantenvs/tigervnc
+target: server-msg
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/server-msg/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_server_msg
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,4 @@
+TigerVNC Configuration file Version 1.0
+FullScreen=1
+FullScreenMode=Selected
+FullScreenSelectedMonitors=1,3

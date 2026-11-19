@@ -1,0 +1,31 @@
+// Fixed, throw-away RSA key for the RA2* server security types (RSAKey parameter).
+// Generated once with `openssl genrsa -traditional 2048`; it protects nothing.
+#pragma once
+static const char kFuzzRsaKeyPem[] =
+  "-----BEGIN RSA PRIVATE KEY-----\n"
+  "MIIEpAIBAAKCAQEAsizlik838lx0OMrozL3tw0ENisklHcvyiQpMo14DEMJTRVEb\n"
+  "GBtmpPzixQHW/wPtm0hNcZnpY4VkrfHX6RRpnlEEG7Sjy08WmGA0JsNHqQ5+R187\n"
+  "7a4UrAPe5PH+Qy1Tz4TTvQ3X19SAIY90m5ciStg2x1HEgWKHMh5PoZGB2goNeoxF\n"
+  "Sy06hZ/Ts7MwuFrGihxikhTgf1NpWoipapOaa1zzcwod+OHdpUCMWpqgtEiXyCBF\n"
+  "iCMmy+4WHeQX6qSaKveYJgtdRMjSMLqKsJSUX7IQmuSLMVQdL777ofhPWJhApn9A\n"
+  "bE00wwmnY9mrkSxis8nG+f0CMXlaeaL1zaC70QIDAQABAoIBAAWCobcmbQpS+li2\n"
+  "1NckJVXZpjnpr5iEz5mpwv6dV6kBI/j6ekT+jXvCh8bagqyfVnBsFL5J7nSqb42g\n"
+  "hyNh284xCyc2gYdddV7uymzfZDN1mmcFDMbqpCBUrYuGX0+j2hyAqxR7DGNAWPgY\n"
+  "Hsogl3i3UfFza2vHkAUK5NwZ91WFYOpmrw1wuQPwMybiEQOwKr8k+o32tnodmpqg\n"
+  "4TmN2n6/a0D+jXtodRs79L7qd9WBgEseKY7dhkqB2geFWdOG1xaDDrJSIyWvO08d\n"
+  "OF4j29fyNd6c3XekmmVkl6cKy/He5/BJA089CyOX/S66eSoPuXS0HY8nezWOSsoU\n"
+  "o4IoOYsCgYEA4WaxlDF4MmhxkJsBazk5/xVbAu0dH+PJKLAhiPbxRuY9X09cxxab\n"
+  "x/VoUchkRYmy30ydVEHLcFlkvYholLWYin4HuvhJAXoVj5LFzOrQ2t5XZmARXPBy\n"
+  "T85KdL80NuLGgf9Uw357+mYKnNrJCZ7q+U0sZoM9YM4ReW04B7BExE8CgYEAylz6\n"
+  "cwT4/Y6GFmcH1p4ud6YlnebO11wR/YTI6qh6k7mAxsym16ipP5s4Nccm0+FY/Mox\n"
+  "F78P75ykUVKh8tbVx0lKogirlClr5wZpv2IyQUpf6Rl9NXxl0njqbcIMl7GCLQzg\n"
+  "3QRQSzF/GJxRG0AFcCDk3M7lYSRVrmkd3yJc1d8CgYEAk3FPvDbX/3FeyE79EJyw\n"
+  "mXHoxPNCV/fzQFBmv2d50P0PLGeHsxvQ725SvRyuquY2QeemCtW3NFjlky3F63EW\n"
+  "xZFHkUCU0QiBTheemDsKQAGtfmRdN0R6IkY5YkEo8LZLUAIr+m2kv9k8G/rqAwcX\n"
+  "gdi/sJcs8UQbHikZu73MXfUCgYEAj4HYanEAUnAcTw7J1D1hHqDI1G22CavVZkAg\n"
+  "a6kHJHPNCy5es1l8jQr6lcihlGievsZ0gi6QkpA3RySejKQl/qnPL5GOfAfT6YX2\n"
+  "wC5XDU49LgVRcfjCDLyLI0MVww2zD1eur447kteLFlzkd7qzII1zP9PJf1ZRHNqW\n"
+  "wIKR62kCgYBlaW5Sippqt5rRexKIEmRSHBUKSPGyaqwMzSldjEQuqHftPUc+9aUw\n"
+  "czsxUbRya5o55oEPTtjLGNPoziT8eLPGRR/HaPgOgPmWP5/e/nb2SwqR7PQrA0tC\n"
+  "t2BHj+7Rly6ggrGJR6w2wqYADnC/mBGRee8H05Tk3W2bss1xBwIM/A==\n"
+  "-----END RSA PRIVATE KEY-----\n";

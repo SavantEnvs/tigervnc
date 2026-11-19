@@ -1,0 +1,9 @@
+project: savantenvs/tigervnc
+target: client-handshake
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/client-handshake/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_client_handshake
+    libfuzzer: true
+    timeout: 10
